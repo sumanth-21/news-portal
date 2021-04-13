@@ -1,0 +1,42 @@
+{
+  "name": "ta-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "mocha",
+    "build": "eslint ./src/**/*.js",
+    "clean": "del ./build",
+    "copy": "copyfiles -u 1 ./src/**/* ./build/",
+    "document": "jsdoc"
+  },
+  "author": "Ranveer Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "chai": "^4.2.0",
+    "copyfiles": "^2.1.1",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "mocha": "^6.2.0",
+    "mocha-jsdom": "^2.0.0",
+    "nodemon": "^2.0.3",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "window": "^4.2.6"
+  }
+}

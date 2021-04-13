@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favIcon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favIcon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favIcon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favIcon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favIcon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favIcon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favIcon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favIcon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favIcon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favIcon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favIcon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favIcon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favIcon/favicon-16x16.png">
+	<link rel="manifest" href="images/favIcon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/home-styles.css">
+  <title>TA News</title>
+
+</head>
+<body>
+  <div class='container'>
+    <header id='head'>
+      <a href=#>
+        <img src='images/menuicon.png' class='hide-desktop menuicon-mobile' alt='menuicon' id='menu'>
+      </a>
+      <a href='index.html' class='logo logo-mobile' id='logo'>LOGO</a>
+        <nav>
+            <ul id='navigate'>
+              <li id="exit" class="exit-btn hide-desktop">
+                <img src="images/exit_header.jpg" alt="Exit Button">
+              </li>
+              <li class='logo-nav-mobile hide-desktop' id='logo1'>LOGO</li>
+                <li class='dropdown'>
+                  <a href="index.html" class='dropbtn'><img src='images/home.svg' class='hide-desktop icon'>HOME</a>
+                  <div class='dropdown-content' id="Selected_Category">
+                    <a href='news_section.html'>World News</a>
+                    <a href='latest-news.html'>Travel</a>
+                    <a href='news_section.html'>Health</a>
+                    <a href='news_section.html'>Politics</a>
+                    <a href='news_section.html'>Sports</a>
+                    <a href='news_section.html'>More...</a>
+                  </div>
+                </li>
+                <li><a href="latest-news.html"><img src='images/discovery.svg' class='hide-desktop icon'>DISCOVERY</a></li>
+                <li><a href="#"><img src='images/photos.svg' class='hide-desktop icon2'>PHOTOS</a></li>
+                <li><a href="#"><img src='images/contact.jpg' class='hide-desktop icon'>CONTACT</a></li>
+                <li><img src='images/profile.png' class='profile'><span class='hide-desktop show-mobile'>PROFILE</span></li>
+            </ul>
+        </nav>
+        <img src='images/profile.png' class='profile-mobile hide-desktop' id='profile'>
+    </header>
+  </div>
+  
+	<div class="hero-container">
+        <div class="hero">
+            <img src="" class="hero-image">
+            <div class="hero-content">
+                <div class="hero-category"></div>
+                <svg class="divider" viewBox="4427.848 210.677 660 2">
+                        <path fill="transparent" stroke="rgba(255,255,255,1)" stroke-width="2px"  class="divider" d="M 4427.84814453125 210.6770782470703 L 5087.84814453125 210.6770782470703">
+                        </path>
+                </svg>
+                <div class="hero-title"></div>          
+                <div class="hero-description"></div> 
+                <a href="" class="hero-url"><button type="button" class="hero-button"></button></a>
+            </div>
+        </div>
+        <!--UI-More-news start-->
+           <div class="box-wrapper">
+             <div class="head-wrapper">
+               <h1>MORE NEWS</h1>
+        <div class="pagination">
+            <a onclick="plusSlides(-1)">
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#202124" width="18px" height="18px"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </a>
+            <a onclick="plusSlides(1)">
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#202124" width="18px" height="18px"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+            </a>
+       </div>
+    </div>
+    <div class="articles-wrapper">
+   </div>
+ </div>
+</div>
+<!--UI-More-News-end-->
+
+   
+<!--UI-Trending-Start-->
+<div class = "trending-container">
+  <div class ="container-heading">
+      <div class = "left-part">TRENDING</div>
+      <div class = "left-arrow"><a onclick ="show(-1)"><img src = "./images/arrow back.svg" alt="arrow"></a></div>
+      <div class = "right-arrow"><a onclick = "show(1)"><img src = "./images/arrow.svg" alt="arrow"></a></div>
+  </div>
+
+  <div class = "content-body">
+      <div class = "left-content">
+          <div class = "img-container"><img id = "image1" src = " "  alt="news-image"></div>
+          <div class = "content-heading" id = "news1"></div>
+          <div class = "content-text" id = "content1"></div>
+          <div class = "content-time">
+              <div class = "time-image" ><img src="./images/time.svg" alt="time-image"></div>
+              <div class = "time" id = "timestamp1"></div>
+          </div>
+      </div>
+
+      <div class = "content-gap">
+          <div class ="middle-content">
+                  <div class ="img-container"><img id = "image2" src = " " alt="news-image" ></div>
+                  <div class = "content-heading" id = "news2"></div>
+                  <div class = "content-text" id = "content2"></div>
+                  <div class = "content-time">
+                      <div class = "time-image"><img src="./images/time.svg" alt="time-image"></div>
+                      <div class ="time" id = "timestamp2"></div>
+                  </div>
+           </div>
+      </div>
+
+      <div class ="content-gap">
+          <div class = "right-content">
+              <div class = "img-container"><img id = "image3" src = " " alt="news-image" ></div>
+              <div class = "content-heading" id = "news3"></div>
+              <div class = "content-text" id = "content3"></div>
+              <div class = "content-time">
+                  <div class = "time-image"><img src="./images/time.svg" alt="time-image"></div>
+                  <div class = "time" id = "timestamp3"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--UI-Trending-End-->
+
+   <!--Happening Now Start-->
+
+   <div class="row" >
+    <div>
+      <table width=100% >
+        <tr>
+          <td style="text-align: left;width:30%">
+            HAPPENING NOW
+          </td>
+          <td style="text-align: right;width:70%" >
+            <a style="text-align: right " >
+            <a   onclick="display(-1)" class="left-button">&#10094;</a>
+            &nbsp
+            <a   onclick="display(1)" class="right-button">&#10095;</a>
+            </a>
+          </td>
+         </tr>
+      </table>
+    </div>
+
+    <div class="column middle">
+      <div class="container">
+        <img id="photo1" src=" " alt="large-tile-image" class="img-width" />
+          <div class="top-left" id="place1">
+            <a class="top-left">
+              abcd
+            </a>
+          </div>
+          <br/>
+          <br/>
+          <div class="bottom-left" >
+            <h2 id="titl1" class="textr">
+            </h2>
+          <div >
+            <a size="2" class="discr"  id="des1">
+            </a>
+          </div>
+          <div >
+            <img src="./images/time.svg" alt="clock" class="svg-image" />
+            &nbsp
+            <i>
+              <a size="1" id="time1" class="text-color" >
+              </a>
+            </i>
+          </div>
+          <br/>
+        </div>
+      </div>
+    <br/>
+    <br/>
+
+    <div class="container" >
+      <img id="photo2" src=" " alt="large-tile-image"  class="img-width"  />
+        <div class="top-left" id="place2">
+          <a class="top-left"  >
+          </a>
+        </div>
+        <div class="bottom-left" >
+          <h2 id="titl2" class="textr" >
+          </h2>
+            <div >
+              <a size="2" class="discr" id="des2">
+              </a>
+            </div>
+            <div >
+              <img src="./images/time.svg" alt="clock" class="svg-image" />
+               &nbsp
+               <i>
+                 <a size="1" id="time2" class="text-color">
+                </a>
+              </i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="column side">
+      <div class = "res lef">
+        <img id="pic1" src=" " alt="small-tile-image" class="img-width" />
+          <div class="title-align">
+            <b>
+              <a id="title1" class="s-title">
+              </a>
+              <br>
+            </b>
+            <div class="align text-color">
+              <img src="./images/time.svg" alt="clock" class="svg-image" />
+                &nbsp
+              <a id="tim1" > </a>
+              <u>
+                <a id="author1" href="latest-news.html" class="auth-color">
+                </a>
+              </u>
+              <br/>
+              <br/>
+            </div>
+          </div>
+      </div>
+      <div class = "res lef">
+        <img id="pic2" src=" " alt="small-tile-image" class="img-width" />
+          <div class="title-align">
+            <b>
+              <a id="title2" class="s-title">
+              </a>
+              <br>
+            </b>
+            <div class="align text-color">
+              <img src="./images/time.svg" alt="clock" class="svg-image" / >&nbsp
+                <a id="tim2" > </a>
+                <u>
+                  <a id="author2" href="latest-news.html" class="auth-color">
+                  </a>
+                </u>
+            </div>
+            <br/>
+            <br/>
+          </div>
+      </div>
+      <div class = "res lef i" >
+        <img id="pic3" src=" " alt="small-tile-image" class="img-width" />
+          <div class="title-align" >
+            <b>
+              <a id="title3" class="s-title">
+              </a>
+              <br>
+            </b>
+            <div class="align text-color">
+              <img src="./images/time.svg" alt="clock" class="svg-image" />&nbsp
+              <a id="tim3" > </a>
+              <u>
+                <a id="author3" href="latest-news.html" class="auth-color">
+                </a>
+              </u>
+            </div>
+            <br/>
+            <br/>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--Happening Now End-->
+
+  <!--Footer start-->
+
+  <footer>
+    <div class="container">
+        <div class="footer-links logo">
+            <ul class="unstyled">
+                <li>LOGO</li>
+            </ul>
+        </div>
+        <nav class="footer-links">
+            <ul class="nav-ul unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Guidelines</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Adervertise</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="footer-links news">
+            <div class="input-with-icons">
+                <form>
+                  <input type="email" placeholder="Email">
+                  <label>Stay in touch with us for the freshest product!</label>  
+                </form>
+            </div>
+        </div>
+        <nav class="footer-links">
+            <div class="social-icons">
+                <ul class="unstyled">
+                    <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/facebook.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/world.svg" alt="instagram"></a></li>
+                 </ul>
+              </div>
+        </nav>
+    </div>
+</footer>
+  <!--Footer end-->
+  <script src="js/topmorenews.js"></script>
+  <script type = "text/javascript" src="js/trending-news.js"></script>
+  <script type="text/javascript" src="js/happening-now.js"></script> 
+  <script type="text/javascript" src="js/home-hero-section.js"></script>
+  <script src="js/header.js"></script>
+</body>
+</html>

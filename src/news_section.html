@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favIcon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favIcon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favIcon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favIcon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favIcon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favIcon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favIcon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favIcon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favIcon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favIcon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favIcon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favIcon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favIcon/favicon-16x16.png">
+	<link rel="manifest" href="images/favIcon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/news_section.css" rel="stylesheet">
+  <title>Articles</title>
+</head>
+<body>
+  <div class='container'>
+    <header id='head'>
+      <a href=#>
+        <img src='images/menuicon.png' class='hide-desktop menuicon-mobile' alt='menuicon' id='menu'>
+      </a>
+      <a href='index.html' class='logo logo-mobile' id='logo'>LOGO</a>
+        <nav>
+            <ul id='navigate'>
+              <li id="exit" class="exit-btn hide-desktop">
+                <img src="images/exit_header.jpg" alt="Exit Button">
+              </li>
+              <li class='logo-nav-mobile hide-desktop' id='logo1'>LOGO</li>
+                <li class='dropdown'>
+                  <a href="index.html" class='dropbtn'><img src='images/home.svg' class='hide-desktop icon'>HOME</a>
+                  <div class='dropdown-content' id="Selected_Category">
+                    <a href='#'>World News</a>
+                    <a href='#'>Travel</a>
+                    <a href='#'>Health</a>
+                    <a href='#'>Politics</a>
+                    <a href='#'>Sports</a>
+                    <a href='#'>More...</a>
+                  </div>
+                </li>
+                <li><a href="latest-news.html"><img src='images/discovery.svg' class='hide-desktop icon'>DISCOVERY</a></li>
+                <li><a href="#"><img src='images/photos.svg' class='hide-desktop icon2'>PHOTOS</a></li>
+                <li><a href="#"><img src='images/contact.jpg' class='hide-desktop icon'>CONTACT</a></li>
+                <li><img src='images/profile.png' class='profile'><span class='hide-desktop show-mobile'>PROFILE</span></li>
+            </ul>
+        </nav>
+        <img src='images/profile.png' class='profile-mobile hide-desktop' id='profile'>
+    </header>
+  </div>
+
+     <div id="belowmenu">
+        <section id="main">
+        <div class="inner1">   
+                <a href="index.html"><img src="images/icons8-home-512.png"  id="e" width="40px" height="40px" align="left" alt="homeicon"/></a>
+            <ul class="breadcrumb">
+                <li><a href="#">Story</a></li>
+                <li><a href="#" id="target">World News</a></li>
+            </ul>
+            
+            <a href="#"><img src="images/filter-icon-png-17.png" id="e" width="40px" height="40px" align="right" alt="filtericon"/></a>
+
+        </div>
+          </section>
+
+      
+      <section id="main">
+        <div class="inner">
+          <section>
+            <div class="articleSearch">
+              <div class="image flush mycontainer">
+                <img src="images/Image@2x (2).png" alt="" />
+                <div class="centered">
+                  <h2 id="target1">WORLD NEWS</h2>
+                  <hr>
+
+                  <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id
+                    nullam detracto vidit.</p>
+                  <div class="image flush mycontainer" >
+                    <img src="images/avatar@2x.png"  class="profilepic" alt="profilepic"/>
+
+                  </div>
+                </div>
+    
+
+              </div>
+              <div class="inner">
+                <form>
+                  <h3>Select A Date</h3>
+                  <input type="date" placeholder="Select" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" value="08/02/2020">
+                  <h3>Enter the first keywords</h3>
+                    <input
+                        type="text"
+                        name="searchBar"
+                        id="searchBar"
+                        placeholder="search for a character"
+                    /><br><br>
+                    <input type="button" id="clicksubmit" value="submit" onclick="myFunction();">
+              
+                </form>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+      </section>
+    </div>
+  <!-- SEARCH NEWS SECTION ENDS -->
+ 
+        <!-- DATA RETRIEVED AFTER SEARCH -->
+        
+
+        <section id="main">
+          <div class="inner1">
+            <div id="match-list">
+
+              <div class="column1">
+                <img src="https://firebasestorage.googleapis.com/v0/b/news-portal-apr2020.appspot.com/o/Large_Desktop_3%2Favatar.png?alt=media&token=0e86b520-ce82-4776-b87b-f0c3fcd7baf5" alt="author_photo" id="avatar">
+                <p id="authorinfo">Phasellus eu nulla malesuada, luctus diam.</p>
+            </div>
+        
+            <div class="column2">
+                <p id="authorexcerpt">  Dignissim rutrum ridiculus lacinia phasellus torquent ad aliquet, nisi dictum cubilia class habitasse
+                                        commodo, semper potenti nec ac per egestas. Ac volutpat ullamcorper phasellus montes sollicitudin litora
+                                        ridiculus mi conubia inceptos euismod odio curabitur, tortor eros porta venenatis facilisis quam blandit
+                                        in ut lobortis consequat justo. Hac libero quisque tortor conubia iaculis accumsan mollis eleifend, 
+                                        tempor risus est fusce blandit vestibulum. Dignissim rutrum ridiculus lacinia phasellus torquent ad
+                                        aliquet, nisi dictum cubilia class habitasse commodo, semper potenti nec ac per egestas. Ac volutpat
+                                        ullamcorper phasellus montes sollicitudin litora ridiculus mi conubia inceptos euismod odio curabitur,
+                                        tortor eros porta venenatis facilisis quam blandit in ut lobortis consequat justo. Hac libero quisque
+                                        tortor conubia iaculis accumsan mollis eleifend, tempor risus est fusce blandit vestibulum.</p>
+                                 
+                <i class="fa fa-clock-o"></i><div id="time"></i>&nbsp;2 min ago</div>
+            </div> 
+        
+            <div class="line"></div>
+        
+            <div class="poster-wrapper">
+                <img src="https://firebasestorage.googleapis.com/v0/b/news-portal-apr2020.appspot.com/o/Large_Desktop_3%2F161975_1024x768%402x.png?alt=media&token=304da35a-b9d9-4288-8387-4b8f89b40fe3" alt="poster" id="poster">
+            </div>
+        
+            <div class="article-wrapper">
+                <p id="articlecopy" >Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula
+                                    inceptos laoreet libero tortor, nascetur non habitasse iaculis tempor nec egestas fames augue, platea
+                                    porta integer nostra curae sed arcu. Nec ut diam vulputate ante scelerisque ridiculus lobortis orci mi 
+                                    curae himenaeos quis, senectus curabitur ullamcorper a porttitor nibh fermentum nisi cum morbi aliquam. 
+                                    Vitae pretium vestibulum dui gravida in potenti interdum, class rhoncus neque eget magna at Ullamcorper 
+                                    porttitor non pharetra cursus nisl mollis pellentesque primis penatibus platea, dictum himenaeos eget mi 
+                                    bibendum ad molestie aliquet curae quis quisque, nunc duis ac at elementum dui integer viverra tempus. 
+                                    Lacinia bibendum diam senectus egestas nec molestie convallis aenean hac tempus, vivamus purus congue 
+                                    euismod fringilla cursus donec est eu blandit platea, feugiat vitae netus orci habitant accumsan placerat
+                                    morbi nostra.</p>
+    
+            </div>
+    
+            <div class="articleemp-wrapper">
+                <p id="articlecopyemp"> In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan.
+                                        Donec rhoncus luctus.</p>
+            </div>
+    
+            <div class="line2"></div>
+    
+
+            </div>
+
+          </div>
+         
+        </section>
+
+        <section id="main">
+        <div class="inner1">
+        <ul class="list" id="list_item1">
+         <li class="active"><a onclick="data1(0)">01</a></li>
+          <li><a onclick="data1(1)">02</a></li>
+          <li><a onclick="data1(2)">03</a></li>
+          <li><a onclick="data1(3)">04</a></li>
+          <li class="num"><a onclick="data1(4)">05</a></li>
+          <li class="next_pages" id="icon" onclick="pageNo()"><a><img src="https://img.icons8.com/ios-filled/50/000000/ellipsis.png"/></a></li> 
+        </ul>
+ 
+  
+        <ul class="list" id="list_item2">
+        </ul>
+       
+        <ul class="list" id="list_item3">
+        </ul>
+
+        <ul class="list" id="list_item4">
+        </ul>
+        </div>
+      </section>
+    
+
+<!-- END  -->
+
+
+	<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-links logo">
+            <ul class="unstyled">
+                <li>LOGO</li>
+            </ul>
+        </div>
+        <nav class="footer-links">
+            <ul class="nav-ul unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Guidelines</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Adervertise</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="footer-links news">
+            <div class="input-with-icons">
+                <form>
+                  <input type="email" placeholder="Email">
+                  <label>Stay in touch with us for the freshest product!</label>  
+                </form>
+            </div>
+        </div>
+        <nav class="footer-links">
+            <div class="social-icons">
+                <ul class="unstyled">
+                    <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/facebook.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/world.svg" alt="instagram"></a></li>
+                 </ul>
+              </div>
+        </nav>
+    </div>
+</footer>
+
+  
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="js/header.js"></script>
+  <script  src="js/news_section.js" ></script> 
+           
+</body>
+</html>

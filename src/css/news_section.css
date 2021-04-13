@@ -1,0 +1,478 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700')
+	;
+
+/* Box Model */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 11pt;
+}
+
+@media screen and (max-width: 1680px) {
+	html {
+		font-size: 9pt;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	html {
+		font-size: 9pt;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	html {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	html {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size:11pt;
+	}
+}
+
+body {
+	background-color: #F6F8F9;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+body, input, select, textarea {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.65;
+}
+
+#belowmenu{
+    margin-top: 80px;;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    background-color: #F6F8F9;
+    list-style: none;
+    align-content: center;
+    display:inline-block;
+   
+ 
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration:none;
+}
+
+
+
+/* Image */
+.image {
+	display: inline-block;
+	position: relative;
+}
+
+.image.flush {
+	margin: 0 !important;
+}
+
+.image img {
+	display: block;
+}
+
+/*articleSearch */
+.articleSearch {
+	display: flex;
+	align-items: center;
+	color: #202124;
+}
+
+
+
+.articleSearch>* {
+	width: 50%;
+}
+
+.articleSearch .inner {
+	padding: 6rem;
+}
+
+.articleSearch .image {
+	margin: 0;
+}
+
+.articleSearch .image img {
+	width: 100%;
+}
+
+ .profilepic img{
+       
+  display: block;
+  max-width:80px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+    }
+
+
+
+
+@media screen and (max-width: 980px) {
+	.articleSearch {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		text-align: left;
+	}
+	.articleSearch>* {
+		width: 100%;
+	}
+     ul.breadcrumb li{
+  display:none;
+}
+    
+     #e{
+        width: 25px;
+        height: 25px;
+    }
+    .profilepic{
+       
+  display: block;
+  max-width:40px;
+  max-height:40px;
+  width: auto;
+  height: auto;
+    }
+}
+
+@media screen and (max-width: 736px) {
+	.articleSearch .inner {
+		padding: 2rem;
+	}
+}
+
+/* Header */
+
+
+/* Main */
+
+
+#main>.inner ,.inner1{
+	margin: 0 auto;
+    width: 80rem;
+	max-width: 90%;
+	margin-bottom: 2rem;
+	background: rgba(255, 255, 255, 0.95);
+    border-radius: 6px;
+   
+}
+#main>.inner1 {
+    background-color: #F6F8F9;
+}
+.inner2{
+    background-color: #F6F8F9;
+}
+
+@media screen and (max-width: 980px) {
+	#main .image {
+		float: none;
+		margin: 0 0 2rem 0;
+	}
+	#main .image img {
+		width: 100%;
+	}
+	#main>.inner,.inner1 {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		border-radius: 6px;
+    }
+    
+}
+
+input[type=search], input[type=date],input[type=text] {
+	width: 100%;
+	height: 40px;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #EBEDED;
+}
+
+input[type=submit],input[type=button] {
+	width: 151px;
+	height: 40px;
+	border-radius: 6px;
+	color: aliceblue;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: #FA6980;
+}
+
+.mycontainer {
+	position: relative;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    
+}
+.centered h2{
+    color: white;
+}
+.centered  img {
+    border:2px solid white;
+    border-radius: 50%;
+}
+
+hr {
+	border-color: #FA6980;
+	width: 60px;
+}
+
+@media screen and (max-width: 380px) {
+	.mycontainer {
+		position: relative;
+		text-align: center;
+		color: white;
+		display: inline-block;
+		font-size:10px;
+	}
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 10px;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+/*
+MENU
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+ul {
+    list-style: none;
+   
+}
+
+/* CSS FOR THE LISTING ARTICLE SECTION STARTS HERE*/
+.listing-article-container {
+    font-family: Helvetica,Arial, sans-serif;
+}
+.column1 {
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1.25em;
+    width: 11.7em;
+}
+
+.column2 {
+    color: gray;
+    font-size: 0.85em;
+    width: 100%;
+}
+
+.line {
+    border-bottom: solid 2px lightgray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.line2 {
+    border-bottom: solid 2px lightgray;
+}
+
+.poster-wrapper img {
+    width: 100%;
+}
+
+.article-wrapper {
+    color: gray;
+    font-size: 1em;
+}
+
+.articleemp-wrapper {
+    color: #000000;
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: bold;
+    width: 100%;  
+}
+
+#time {
+    display: inline;
+}
+
+
+/*Responsive for tablet*/
+@media only screen and (min-width: 736px) {
+    .column1 {
+        float: none;
+        width: 12em;
+    }
+
+    .column2 {
+        column-count: 2;
+        width: 100%;
+    }
+    .column2>p:first-child {
+        margin-top: 0em;
+    }
+
+    
+}
+
+/*Responsive for small desktops*/
+@media only screen and (min-width: 1280px) {
+    .column1 {
+        float: left;
+        width: 15em;
+    }
+
+    .column2 {
+        column-count: 2;
+        column-gap: 2em;
+        padding-left: 5em;
+        padding-top: 3em;
+        width: 65em;
+    }
+
+    .column2>p:first-child {
+        margin-top: 0em;
+    }
+
+   .article-wrapper {
+       float: left;
+       width: 55em;
+   }
+
+    .articleemp-wrapper {
+        margin-left: 58em;
+        width: 24em;
+    }
+
+    .line2 {
+        margin-top: 160px;
+    }
+
+}
+
+/*Responsive for Large Desktop*/
+@media only screen and (min-width: 1680px) {
+    .column1 {
+        float: left;
+        width: 17em;
+    }
+
+    .column2 {
+        column-count: 2;
+        column-gap: 1em;
+        padding-top: 2em;
+        width: 60em;
+    }
+
+    .column2>p:first-child {
+        margin-top: 0em;
+    }
+
+    
+    .line2 {
+        margin-top: 14em;
+    }
+}
+
+/*Listing-Article Section ends here*/
+
+.list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  ul.list li {
+    list-style: none;
+  }
+  
+  ul.list li a {
+    position: relative;
+    display: block;
+    padding: 0.6250em 1.2500em;
+    text-decoration: none;
+  }
+  
+  ul.list li.active a {
+    border-bottom: 0.125em solid olive;
+    color: black;
+    font-weight: bold;
+  }
+  
+  ul.list li a img {
+    height: 20px;
+    margin: auto;
+  
+  }
+  
+  ul.list li a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  ul li.num {
+    display: none;
+  }
+
+
+

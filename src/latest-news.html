@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favIcon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favIcon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favIcon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favIcon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favIcon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favIcon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favIcon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favIcon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favIcon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favIcon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favIcon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favIcon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favIcon/favicon-16x16.png">
+	<link rel="manifest" href="images/favIcon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="css/latest-news.css">
+    <link rel="stylesheet" type="text/css" href="css/hero-header.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Latest News</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class='container'>
+        <header id='head'>
+          <a href=#>
+            <img src='images/menuicon.png' class='hide-desktop menuicon-mobile' alt='menuicon' id='menu'>
+          </a>
+          <a href='index.html' class='logo logo-mobile' id='logo'>LOGO</a>
+            <nav>
+                <ul id='navigate'>
+                  <li id="exit" class="exit-btn hide-desktop">
+                    <img src="images/exit_header.jpg" alt="Exit Button">
+                  </li>
+                  <li class='logo-nav-mobile hide-desktop' id='logo1'>LOGO</li>
+                    <li class='dropdown'>
+                      <a href="index.html" class='dropbtn'><img src='images/home.svg' class='hide-desktop icon'>HOME</a>
+                      <div class='dropdown-content' id="Selected_Category">
+                        <a href='news_section.html'>World News</a>
+                        <a href='news_section.html'>Travel</a>
+                        <a href='news_section.html'>Health</a>
+                        <a href='news_section.html'>Politics</a>
+                        <a href='news_section.html'>Sports</a>
+                        <a href='news_section.html'>More...</a>
+                      </div>
+                    </li>
+                    <li><a href="latest-news.html"><img src='images/discovery.svg' class='hide-desktop icon'>DISCOVERY</a></li>
+                    <li><a href="#"><img src='images/photos.svg' class='hide-desktop icon2'>PHOTOS</a></li>
+                    <li><a href="#"><img src='images/contact.jpg' class='hide-desktop icon'>CONTACT</a></li>
+                    <li><img src='images/profile.png' class='profile'><span class='hide-desktop show-mobile'>PROFILE</span></li>
+                </ul>
+            </nav>
+            <img src='images/profile.png' class='profile-mobile hide-desktop' id='profile'>
+        </header>
+      </div>
+      
+      <!--HeroHeader-->
+      <div class="heroheader-container">
+        <img src="../src/images/comp.png" alt="Snow" style="width:100%;" id="img">
+        <div class="bottom-left"> 
+            <div class="writer">
+                <img src="../src/images/component1.png" alt="author-image"></img>
+                <label class="author">by Steven Voorhees</label>
+            </div>
+        </div>
+      
+        <div class="bottom-right">  
+            <div class="nextstory">
+                <h6> <a href="#">next story<i class="arrow"></i></a></h6>
+                <p class="story-title">Morbi eleifend a libero</p>
+                <p class="story-content">Quisque viverra interdum velit, et cursus magna sagittis in. In dui dui.</p>
+            </div>
+        </div>
+        <div class="centered"> <h1>amazing places in america to visit.</h1>
+            <a href="latest-news.html" class="para"> <img src="../src/images/web.svg" alt=""> Travel Guide</a>
+            <a href="news_section.html" class="para"> <img src="../src/images/topic.svg" alt=""> world news</a>
+        </div> 
+    </div> 
+    <!-- /HeroHeader -->
+    <!--ArticlePage-NewsArticleSection-LeftColumn-->
+    <div class="news-article-left-column">
+        <div id="lefthalf">
+            <!--Article Header-->
+            <div class="articleheader"><p id="header"></p></div>
+            <!--Article Content : News-->
+            <p class="newscontent" id="leftcontent"></p>
+        </div>
+        <div id="righthalf">
+            <!--Article Content : News-->
+            <p class="newscontent" id="rightcontent"></p>
+            <span class="dash-line"></span>
+            <p class="subtitle" id="title"></p>
+            <img src="./images/time.svg" alt="favicon-clock">
+            <p class="articletime" id="time"></p>
+        </div>
+    </div>
+    <!--ArticlePage-NewsArticleSection-LeftColumn-->
+    <!-- Latest News Right Column -->
+    <div class="latest-news-right-column">
+        <span class="hide-desktop"></span>
+        <!-- Latest News Section -->
+        <div class="latest-news-container">
+            <div class="latest-news-row-1">
+                <div class="latest-news-author-img">
+                    <img src="" id="author-img-1">
+                </div>
+                <div class="latest-news-author-name">
+                    <span id="latest-news-author-name-1"></span>
+                </div>
+                <div class="latest-news-description">
+                    <p id="latest-news-description-1"></p>
+                </div>
+                <div class="latest-news-publish-time">
+                    <img src="./images/time.svg" alt="favicon-clock">
+                    <span id="publish-time-1"></span>
+                </div>
+            </div>
+            <div class="latest-news-row-2">
+                <div class="latest-news-author-img">
+                    <img src="" id="author-img-2">
+                </div>
+                <div class="latest-news-author-name">
+                    <span id="latest-news-author-name-2"></span>
+                </div>
+                <div class="latest-news-description">
+                    <p id="latest-news-description-2"></p>
+                </div>
+                <div class="latest-news-publish-time">
+                    <img src="./images/time.svg" alt="favicon-clock">
+                    <span id="publish-time-2"></span>
+                </div>
+            </div>
+        </div>
+        <!-- Video component -->
+        <div class="video-container">
+            <div class="button-container"><button type="button" class="button1">►</button></div>
+            <video class="myVideo" id="vid">
+            <source src="videos/Australia 8k HDR - Down Under 4k HDR.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- /Latest News Right Column -->
+    <!-- Footer start-->
+    <footer>
+    <div class="container">
+        <div class="footer-links logo">
+            <ul class="unstyled">
+                <li>LOGO</li>
+            </ul>
+        </div>
+        <nav class="footer-links">
+            <ul class="nav-ul unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Guidelines</a></li>
+            </ul>
+            <ul class="nav-ul unstyled">
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Adervertise</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="footer-links news">
+            <div class="input-with-icons">
+                <form>
+                  <input type="email" placeholder="Email">
+                  <label>Stay in touch with us for the freshest product!</label>  
+                </form>
+            </div>
+        </div>
+        <nav class="footer-links">
+            <div class="social-icons">
+                <ul class="unstyled">
+                    <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/facebook.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/world.svg" alt="instagram"></a></li>
+                 </ul>
+              </div>
+        </nav>
+    </div>
+    </footer>
+    <!-- Footer end-->
+</body>
+<script src="js/latest-news.js"></script>
+<script src="js/header.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</html>

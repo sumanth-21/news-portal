@@ -1,0 +1,288 @@
+body {
+    margin:0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/*Css for News Article Left Column(Entire Div)*/
+.news-article-left-column {
+    display: inline-block;
+    width: 22%;
+    margin-right: 2.5em;
+}
+
+/*Css for Article Header*/
+.articleheader > p {
+    color: #000;
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*Css for News Content*/
+.newscontent {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    line-height: 1.6em;
+    color: #A6ADB4;
+    text-align: justify;
+    max-height: 14.5em;
+    overflow: hidden;
+}
+
+/* Dashed border */
+.dash-line {
+    display: block;
+    border-top: 2px dashed #EBEDED;
+    margin: 2.5em 0;
+}
+
+/*Css for Subtitle*/
+.subtitle {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*Css for Article Time*/
+.articletime {
+    display: inline;
+    color: #A6ADB4;
+    font-size: 0.8rem;
+}
+
+.latest-news-right-column .hide-desktop {
+    display: block;
+    border-top: 2px solid #EBEDED;
+    padding-top: 3em;
+    width: 100%;
+}
+
+/* Latest News Section */
+.latest-news-right-column {
+    max-width: 45.625em;
+    display: inline-block;
+    border-left: 2px solid #EBEDED;
+    padding-left: 3em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+/* For 1st latest news */
+.latest-news-row-1 {
+    margin-bottom: 2.500em;  
+}
+
+/* For both the latest news */
+.latest-news-row-1, .latest-news-row-2 {
+    position: relative;
+}
+
+/* Display picture of users */
+.latest-news-author-img {
+    display: inline-block;
+    margin-right: 1.250em;
+    margin-bottom: 1.250em;
+}
+
+.latest-news-author-img > img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Username, who posted latest news */
+.latest-news-author-name {
+    position: absolute;
+    top: 0.5em;
+    display: inline-block;
+    font-size: 1.500em;
+    font-weight: bold;
+    color: #202124;
+    height: 1.500em;
+}
+
+/* Latest news description*/
+.latest-news-description {
+    font-size: 1.000em;
+    font-style: oblique;
+    color: #202124;
+    max-height: 4.813em;
+    overflow: hidden;
+}
+
+.latest-news-description > p {
+    line-height: 1.875em;
+    margin-top: -0.375em;
+    margin-bottom: -0.375em;
+}
+
+/* Publish time of the latest news */
+.latest-news-publish-time {
+    font-size: 0.813em;
+    font-style: oblique;
+    color: #A6ADB4;
+    margin-top: 1.250em;
+}
+
+/*Video Component*/
+.video-container {
+    margin-top: 2.5em;
+    max-height: 18.750em;
+    position: relative;
+}
+
+.button-container {
+    position: absolute;
+    top: 7.813em;
+    left: 21.563em;
+}
+
+.button1 {
+    border-radius: 50%;
+    width: 3.125em;
+    height: 3.125em;
+    z-index: 1000;
+    border: 0em;
+    opacity: 50%;
+}
+
+.myVideo {
+    margin-bottom: 0em;
+    border-radius: 0.375em;
+    width:45.625em;
+    max-height:18.750em;
+}
+
+.myVideo > video {
+    width:45.625em;
+    height:18.750em;
+}
+
+/*Responsiveness*/
+/*For Mobiles*/
+@media only screen and (max-width: 599px) {
+    /* Latest news left column */
+    .news-article-left-column {
+        width: 88%;
+        margin: 0 6%;
+        margin-top: 5%;
+    }
+
+    .dash-line {
+        display: none;
+    }
+
+    /* Latest news right column */
+    .latest-news-right-column {
+        margin : 0 6% 5% 6%;
+        width: 88%;
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+
+    /* Video component */ 
+    .video-container .myVideo {
+         width: 100%;
+    }
+ 
+    .video-container .button-container {
+         top: 30%;
+         left: 42%;
+    }
+}
+
+/*For Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+    /* Latest news left column */
+    .news-article-left-column {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    #lefthalf {
+        width: 40%;
+        float: left;
+    }
+
+    #righthalf {
+        width: 40%;
+        margin-right: 1rem;
+        float: right;
+    }
+
+    .dash-line {
+        display: none;
+    }
+
+    /* Latest news right column */
+    .latest-news-right-column {
+        margin : 0% 10% 10% 10%;
+        width: 80%;
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+
+    /* Video component */ 
+    .video-container .myVideo {
+        width: 100%;
+    }
+
+   .video-container .button-container {
+        top: 40%;
+        left: 47%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 991px) and (max-width: 1499px) {
+    /* Latest news left column */
+    .news-article-left-column {
+        width: 27%;
+        margin-left: 6%;
+    }
+
+    /* Latest news right column */
+    .latest-news-right-column {
+        margin-right : 6%;
+        width: 50%;
+    }
+    
+    /* Video component */
+    .video-container {
+        width: 100%;
+    }
+
+    .video-container .myVideo {
+        width: 100%;
+    }
+    
+    .video-container .button-container {
+        top: 35%;
+        left: 45%;
+    }
+
+    .latest-news-right-column .hide-desktop {
+        display: none;
+    }
+}
+
+/*For Larger Desktop*/
+@media only screen and (min-width: 1500px) {
+    /* Latest news left column */
+    .news-article-left-column {
+        width: 20%;
+        margin-left: 12%;
+    }
+
+    /* Latest news right column */
+    .latest-news-right-column {
+        margin-right : 12%;
+        width: 50%;
+    }
+
+    .latest-news-right-column .hide-desktop {
+        display: none;
+    }
+}
